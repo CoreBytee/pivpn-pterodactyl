@@ -15,4 +15,4 @@ RUN apt-get update && apt-get install -y \
 	whiptail \
 	&& rm -rf /var/lib/apt/lists/*
 
-RUN curl -L https://install.pivpn.io -o install.sh
+RUN curl -L https://install.pivpn.io | bash
