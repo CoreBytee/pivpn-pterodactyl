@@ -30,4 +30,4 @@ jobs:
           platforms: linux/amd64,linux/arm64
           push: true
           tags: |
-            ghcr.io/dot-lua/typewriter:pterodactyl
+            ghcr.io/CoreBytee/pivpn-pterodactyl:pterodactyl
